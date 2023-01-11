@@ -14,7 +14,7 @@ function Layout() {
     e.preventDefault();
     try {
       const res = await axios.get(
-        `http://localhost:5000/api/user?username=${username}`
+        `https://githubapi.onrender.com/api/user?username=${username}`
       );
 
       setUserData(res.data);
