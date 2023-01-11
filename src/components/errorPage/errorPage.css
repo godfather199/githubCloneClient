@@ -1,0 +1,37 @@
+.errorContainer {
+    /* border: 3px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    background-color: beige;
+    box-shadow: 0px 0px 20px -5px black;
+}
+
+.errorWrapper {
+    /* border: 4px solid green; */
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-bottom: 30px; */
+}
+
+.errorTitle {
+    text-align: center;
+    font-size: 40px;
+    color: brown;
+    font-family: 'Lora', sans-serif;
+    cursor: pointer;
+}
+
+.errorMessage {
+    /* margin-bottom: 30px; */
+    font-size: 45px;
+    font-weight: bolder;
+    font-family: 'Lora', sans-serif;
+    color: green;
+    /* background-color: aliceblue; */
+}
